@@ -6,3 +6,5 @@ const generateToken = (userId, secretKey)  =>{
 
     return jwt.sign(payload, secretKey, options);
 }
+
+module.exports = generateToken;
